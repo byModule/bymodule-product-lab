@@ -1,13 +1,9 @@
 # Building ByModule.com from 0 to 1
 
 **Author:** Alex Dionisio
-
 **Role:** Founder, Product Manager, and builder
-
 **Product:** [ByModule.com](https://bymodule.com)
-
-**Status:** Live product, as reported by the builder
-
+**Status:** Live product
 **Production source:** Private
 
 ## Scope and evidence
