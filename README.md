@@ -1,6 +1,6 @@
-# ByModule.com Product Lab
+# Module Product Lab
 
-[ByModule.com](https://bymodule.com) is a learning platform for professionals building digital products. I designed and built it through [Module](https://bymodule.io), my independent digital product practice.
+[Module](https://bymodule.com) is a learning platform for professionals building digital products. I designed and built it through [Module](https://bymodule.io), my independent digital product practice.
 
 This repository documents selected product decisions, engineering trade-offs, and lessons from building the platform. Production source code and paid course content remain private.
 
@@ -8,15 +8,19 @@ This repository documents selected product decisions, engineering trade-offs, an
 
 The shipped platform described in the [first case study](case-studies/01-building-bymodule-from-0-to-1.md) includes:
 
-- Course discovery, programme pages, and search.
+- A catalogue of 31 courses, each created in French and English against a structured content standard.
+- Course discovery, programme pages with learning objectives and deliverables, and search.
 - Accounts, a learner dashboard, learning paths, and step-level progress.
 - Learning statistics and certificates.
-- French and English product and learning experiences.
+- French and English product and learning experiences, with the language carried by the URL and changed only by the learner.
+- A design system built on shadcn/ui, with light and dark themes.
 - Trial access, subscriptions, and individual course purchases.
 - Stripe checkout and server-side billing workflows.
 - Product analytics, newsletter signup, and administration tools.
 
-The application uses React and Vite with Firebase Authentication, Firestore, and Cloud Functions. Stripe handles payments.
+The application uses React 19, Vite, Tailwind CSS 4 and shadcn/ui, with Firebase Authentication, Firestore (EU region) and Cloud Functions. Stripe handles payments, and the public site is served through Cloudflare Pages. Vitest and Playwright cover unit and end-to-end tests.
+
+**In progress:** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (downloading all personal data, deleting the account with a grace period).
 
 These descriptions come from my account of the product. This repository does not yet include an independent production verification or published usage results.
 
@@ -24,7 +28,7 @@ These descriptions come from my account of the product. This repository does not
 
 I am Alex Dionisio, a Senior Product Manager and founder of Module. I defined the product, designed the learner journeys, built the application and backend integrations, and created the learning content. My responsibilities also include pricing, analytics, translation workflows, and ongoing product changes.
 
-Module is my digital product practice. ByModule.com is the learning product. This Product Lab documents ByModule.com.
+Module is both my digital product practice ([bymodule.io](https://bymodule.io)) and the name of the learning platform ([bymodule.com](https://bymodule.com)). This Product Lab documents the learning platform.
 
 ## A decision from the first version
 
@@ -42,24 +46,29 @@ This is a qualitative observation from my work with the product. I am not publis
 
 The proposed learning sequence is:
 
-1. **Find:** identify what to learn for a particular goal.
+1. **Find:** identify what to learn for a particular goal. The onboarding recommendation is the first step (in progress).
 2. **Learn:** get help with an unclear concept.
 3. **Check:** demonstrate understanding against a learning objective.
 4. **Remember:** retain a record of demonstrated knowledge over time.
 
-**Planned:** make learning objectives, concepts, prerequisites, sources, and assessments more consistent before implementing retrieval and evaluating a copilot. These are development priorities, not validated outcomes.
+**Shipped:** before any retrieval work, I wrote a content standard and created the 31 courses of the catalogue against it. Each course defines learning outcomes, concepts, prerequisites, common misconceptions, verified sources and assessments, in French and English.
+
+**Planned:** turn assessments into learning evidence, prepare an evaluation dataset, then implement retrieval and evaluate a copilot. These are development priorities, not validated outcomes.
 
 ## Read the case study
 
-[Building ByModule.com from 0 to 1](case-studies/01-building-bymodule-from-0-to-1.md) covers the first version, the decisions behind it, and what I would change.
+[Building Module from 0 to 1](case-studies/01-building-bymodule-from-0-to-1.md) covers the first version, the decisions behind it, and what I would change.
 
-Product screenshots, a platform overview, and further decision records are planned. They will be added after their factual basis and suitability for public release have been reviewed.
+The [platform overview](architecture/platform-overview.md) describes how the platform is organised, at product-architecture level.
+
+Product screenshots and further decision records are planned. They will be added after their factual basis and suitability for public release have been reviewed.
 
 ## How to read the status labels
 
 | Status | Meaning |
 | --- | --- |
 | Shipped | Described by the builder as available in the live product. |
+| In progress | Built or being built, not yet live. |
 | Observed | A reported observation, with its evidence and limits stated. |
 | Hypothesis | An explanation or proposed benefit that still needs testing. |
 | Planned | Work intended for a future iteration. |
@@ -68,6 +77,6 @@ Public documents exclude production code, credentials, security rules, user data
 
 ## Links
 
-- [ByModule.com: learning platform](https://bymodule.com)
+- [Module: learning platform](https://bymodule.com)
 - [Module: digital product practice](https://bymodule.io)
 - [Alex Dionisio on GitHub](https://github.com/alxdionisio)
