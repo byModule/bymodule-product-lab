@@ -1,14 +1,14 @@
-# Building ByModule.com from 0 to 1
+# Building Module from 0 to 1
 
 **Author:** Alex Dionisio
 **Role:** Founder, Product Manager, and builder
-**Product:** [ByModule.com](https://bymodule.com)
+**Product:** [Module](https://bymodule.com)
 **Status:** Live product
 **Production source:** Private
 
 ## Scope and evidence
 
-I built ByModule.com as a learning platform for professionals creating digital products. I designed the learner experience, implemented the application and its integrations, and created the training content through [Module](https://bymodule.io).
+I built Module as a learning platform for professionals creating digital products. I designed the learner experience, implemented the application and its integrations, and created the training content through [Module](https://bymodule.io).
 
 This case study is my account of the first version. The shipped features and qualitative observations below are reported by me. They have not been independently verified for this publication. No usage dataset or measured business outcome accompanies this document.
 
@@ -16,20 +16,24 @@ This case study is my account of the first version. The shipped features and qua
 
 Learners needed to discover a course, understand its programme, create an account, access the material, and keep track of progress. Operating the service also required billing, content administration, translation, and analytics.
 
-I worked across those areas rather than handing the implementation to a separate engineering team. Product responsibilities included the proposition, learner journeys, access models, and measurement. Engineering work included the React frontend, Firebase services, Stripe integration, and administration interfaces. Content work covered course structure and French and English learning experiences.
+I worked across those areas rather than handing the implementation to a separate engineering team. Product responsibilities included the proposition, learner journeys, access models, and measurement. Engineering work included the React frontend, Firebase services, Stripe integration, and administration interfaces. Content work covered the content standard and the creation of the 31 courses, in French and English.
 
 ## Shipped
 
 | Area | Capabilities |
 | --- | --- |
+| Content | 31 courses created in French and English against a content standard, with learning outcomes, prerequisites, sources and assessments. |
 | Discovery | Public catalogue, course-programme pages, search, and newsletter signup. |
 | Learning | Learner dashboard, course navigation, learning paths, step-level progress, statistics, certificates, and supporting resources. |
 | Accounts | Authentication, profiles, and settings. |
 | Commerce | Trials, subscriptions, individual course purchases, and Stripe checkout. |
+| Experience | Design system built on shadcn/ui, light and dark themes, bilingual URLs. |
 | Operations | Administration, translation workflows, and multilingual interfaces. |
 | Measurement | Event tracking across acquisition, authentication, learning, and billing. |
 
-The frontend uses React and Vite. Firebase provides authentication, data storage, and server-side functions. Stripe supports checkout and billing.
+The frontend uses React 19, Vite, Tailwind CSS 4 and shadcn/ui. Firebase provides authentication, data storage (EU region) and server-side functions. Stripe supports checkout and billing. The public site is served through Cloudflare Pages.
+
+**In progress:** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (data export and account deletion).
 
 ## Access and payments
 
@@ -50,6 +54,8 @@ I added tracking for actions such as signup, course starts, learning progress, c
 ## Multilingual content
 
 French and English support affects course content and navigation as well as interface labels. I built translation workflows into the operational tools so that changes could be managed across both experiences.
+
+I treat the language as part of the architecture rather than a presentation layer. The language is carried by the URL and changes only when the learner chooses it. Every interface string goes through one translation system. Automated tests fail the build on a missing translation or hard-coded text, and an end-to-end suite browses the product in both languages to catch text in the wrong one.
 
 This adds maintenance work: a course change may require corresponding updates to translated material and its surrounding navigation.
 
@@ -74,24 +80,24 @@ A proposed Learning Copilot would help learners choose a topic, get contextual e
 
 The hypothesis is that this guidance could improve independent learning and, potentially, paid conversion. Neither effect has been demonstrated. The copilot is not a shipped capability.
 
-## Planned: structure the content before adding retrieval
+## Shipped: create the content before adding retrieval
 
-My review of the catalogue identified inconsistent course depth and uneven representation of objectives, prerequisites, concepts, sources, and assessments. This is a reported editorial observation, not a published audit dataset.
+Retrieval-augmented generation (RAG) can only be as good as the material it retrieves, and assessments need clear objectives against which answers can be checked. So I started with the content.
 
-I chose to prioritise those content issues before implementing retrieval-augmented generation (RAG). Retrieval needs suitable source material, and assessments need clear objectives against which answers can be checked.
+I wrote a content standard, then created the 31 courses of the catalogue against it, in French and English. Each course defines learning outcomes, concepts, prerequisites, common misconceptions, verified sources, assessments, and a deliverable the learner produces on their own work. A compiler validates every course against the standard and produces separate outputs for the public catalogue, the course player, and a server-side knowledge layer.
 
-The intended sequence is to define learning outcomes and concepts, improve lesson structure and assessments, prepare evaluation examples, then build and evaluate retrieval and contextual assistance. This describes planned work. It does not claim that a knowledge model, evaluation dataset, or AI system is already complete.
+**Planned:** turn assessments into learning evidence, prepare evaluation examples, then build and evaluate retrieval and contextual assistance. This describes planned work. It does not claim that an evaluation dataset or AI system is already complete.
 
 ## What I would change
 
 - **Define activation earlier.** Decide what meaningful initial progress looks like, then test whether that behaviour predicts continued learning.
-- **Structure content earlier.** Represent objectives, prerequisites, sources, and assessments consistently before adding features that depend on them.
+- **Write the content standard first.** Define objectives, prerequisites, sources, and assessments before writing the first course, as the 31 courses now do.
 - **Separate progress from understanding.** Marking a step complete records a product action. It does not establish that the learner understood the material.
 - **Test independent use sooner.** Recruit learners outside guided training and examine where they need help.
 
 ## Further documentation
 
-Product screenshots, a high-level platform overview, and focused case studies on access, measurement, and content structure are planned. Future AI evaluation documents depend on actual experiments and results.
+A high-level [platform overview](../architecture/platform-overview.md) is available. Product screenshots and focused case studies on access, measurement, and content structure are planned. Future AI evaluation documents depend on actual experiments and results.
 
 Each additional artifact will be checked for factual support and reviewed for security and intellectual-property concerns before publication. Production code, security rules, user data, and complete paid content remain private.
 
