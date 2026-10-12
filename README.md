@@ -1,8 +1,33 @@
 # Module Product Lab
 
-[Module](https://bymodule.com) is a learning platform for professionals building digital products. I designed and built it through [Module](https://bymodule.io), my independent digital product practice.
+[Version française](README.fr.md)
+
+[Module](https://bymodule.com) is a learning platform for Product Managers, written for practitioners who build digital products. I designed and built it through [Module](https://bymodule.io), my independent digital product practice.
 
 This repository documents selected product decisions, engineering trade-offs, and lessons from building the platform. Production source code and paid course content remain private.
+
+## Navigate this repository
+
+| Section | What you will find |
+| --- | --- |
+| [Roadmap](ROADMAP.md) | Now, Next and Later, with a status label on every item. Reviewed every month. |
+| [Changelog](CHANGELOG.md) | One line per platform delivery since this lab was published on 29 September 2026. |
+| [Decisions](decisions/001-content-as-tested-structured-files.md) | One decision per file: context, options, decision, consequences. Start from the [template](decisions/000-template.md). |
+| [Playbooks](playbooks/01-frame-a-learning-platform.md) | Reproducible guides for Product Managers, written in French with an English summary. |
+| [Metrics](metrics/README.md) | What I publish, from which source, and when. |
+| [Architecture](architecture/platform-overview.md) | How the platform is organised, at product-architecture level. |
+| [Case study](case-studies/01-building-bymodule-from-0-to-1.md) | Building Module from 0 to 1. |
+| [Discussions](https://github.com/byModule/bymodule-product-lab/discussions) | Course ideas, platform feedback, questions about the method. |
+
+## What changed (October 2026)
+
+When I published this lab in September, it held a case study and an architecture overview. From October 2026 it also holds:
+
+- **Figures.** Usage figures every month and revenue every quarter, starting with the October usage file on 2 November 2026. The [metrics page](metrics/README.md) explains what is counted and where it comes from.
+- **A public roadmap** with the same status labels as the rest of this repository.
+- **A changelog** of platform deliveries.
+- **Decision records and playbooks**, starting with one of each.
+- **An invitation to give feedback** in [Discussions](https://github.com/byModule/bymodule-product-lab/discussions): course ideas, platform feedback, questions about the method. Feedback that changes the roadmap is cited there.
 
 ## The product
 
@@ -20,7 +45,7 @@ The shipped platform described in the [first case study](case-studies/01-buildin
 
 The application uses React 19, Vite, Tailwind CSS 4 and shadcn/ui, with Firebase Authentication, Firestore (EU region) and Cloud Functions. Stripe handles payments, and the public site is served through Cloudflare Pages. Vitest and Playwright cover unit and end-to-end tests.
 
-**In progress:** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (downloading all personal data, deleting the account with a grace period).
+**Shipped (29 September 2026):** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (downloading all personal data, deleting the account with a grace period).
 
 These descriptions come from my account of the product. This repository does not yet include an independent production verification or published usage results.
 
@@ -46,7 +71,7 @@ This is a qualitative observation from my work with the product. I am not publis
 
 The proposed learning sequence is:
 
-1. **Find:** identify what to learn for a particular goal. The onboarding recommendation is the first step (in progress).
+1. **Find:** identify what to learn for a particular goal. The onboarding recommendation is the first step (shipped).
 2. **Learn:** get help with an unclear concept.
 3. **Check:** demonstrate understanding against a learning objective.
 4. **Remember:** retain a record of demonstrated knowledge over time.
@@ -80,3 +105,7 @@ Public documents exclude production code, credentials, security rules, user data
 - [Module: learning platform](https://bymodule.com)
 - [Module: digital product practice](https://bymodule.io)
 - [Alex Dionisio on GitHub](https://github.com/alxdionisio)
+
+## License
+
+The documentation in this repository is licensed under [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0). The source code of the platform is not public and is not part of this repository.
