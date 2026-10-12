@@ -1,6 +1,6 @@
 # Module Product Lab
 
-[Version française](README.fr.md)
+*Version française : [README.fr.md](README.fr.md)*
 
 [Module](https://bymodule.com) is a learning platform for Product Managers, written for practitioners who build digital products. I designed and built it through [Module](https://bymodule.io), my independent digital product practice.
 
@@ -13,11 +13,13 @@ This repository documents selected product decisions, engineering trade-offs, an
 | [Roadmap](ROADMAP.md) | Now, Next and Later, with a status label on every item. Reviewed every month. |
 | [Changelog](CHANGELOG.md) | One line per platform delivery since this lab was published on 29 September 2026. |
 | [Decisions](decisions/001-content-as-tested-structured-files.md) | One decision per file: context, options, decision, consequences. Start from the [template](decisions/000-template.md). |
-| [Playbooks](playbooks/01-frame-a-learning-platform.md) | Reproducible guides for Product Managers, written in French with an English summary. |
+| [Playbooks](playbooks/01-frame-a-learning-platform.md) | Reproducible guides for Product Managers. |
 | [Metrics](metrics/README.md) | What I publish, from which source, and when. |
 | [Architecture](architecture/platform-overview.md) | How the platform is organised, at product-architecture level. |
 | [Case study](case-studies/01-building-bymodule-from-0-to-1.md) | Building Module from 0 to 1. |
 | [Discussions](https://github.com/byModule/bymodule-product-lab/discussions) | Course ideas, platform feedback, questions about the method. |
+
+Each document is available in English, with a French version alongside (`.fr.md`).
 
 ## What changed (October 2026)
 

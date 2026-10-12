@@ -1,5 +1,7 @@
 # NNN: Title of the decision (one sentence, present tense)
 
+*Version française : [000-template.fr.md](000-template.fr.md)*
+
 - **Date:** YYYY-MM-DD
 - **Status:** Proposed · Adopted · Reviewed on YYYY-MM-DD · Abandoned
 - **Area:** content · platform · pricing · communication

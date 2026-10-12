@@ -1,5 +1,7 @@
 # 001: Course content lives in structured files and is checked like code
 
+*Version française : [001-content-as-tested-structured-files.fr.md](001-content-as-tested-structured-files.fr.md)*
+
 - **Date:** 2026-09-28 (compiler and lint introduced; anti-leak rule added on 2026-09-30; written up in October 2026)
 - **Status:** Adopted
 - **Area:** content · platform

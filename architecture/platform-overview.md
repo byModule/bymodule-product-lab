@@ -1,6 +1,8 @@
 # Platform overview
 
-**Product:** Module — [bymodule.com](https://bymodule.com)
+*Version française : [platform-overview.fr.md](platform-overview.fr.md)*
+
+**Product:** Module, [bymodule.com](https://bymodule.com)
 **Last updated:** 30 September 2026
 **Scope:** how the platform is organised, at product-architecture level. Production source code, security rules, internal identifiers, endpoints and paid course content are intentionally not published.
 
@@ -69,7 +71,7 @@ Client-side checks exist only to shape the interface. The same decision is enfor
 - **Dashboard.** It offers resume-where-you-left-off, my courses, progress and time spent, certificates, resources and settings. **(Shipped)**
 - **Self-check questions.** Lessons include quizzes with explanatory feedback. Answers stay in the learner's browser session. They are **not** stored as a learner knowledge model and are **not** an AI assessment. **(Shipped)**
 - **Certificates** are issued on course completion. They attest that a course was followed, not that mastery was assessed. **(Shipped)**
-- **First-sign-in onboarding.** A five-question onboarding (role, goal, level, interests, weekly time) recommends the most relevant course and a realistic pace. **(In progress)**
+- **First-sign-in onboarding.** A five-question onboarding (role, goal, level, interests, weekly time) recommends the most relevant course and a realistic pace. **(Shipped)**
 
 ---
 
@@ -146,7 +148,7 @@ The working model to address it is **FIND → LEARN → CHECK → REMEMBER**: he
 
 The architecture supports that direction without claiming it:
 
-- **FIND** starts with the onboarding recommendation. **(In progress)**
+- **FIND** starts with the onboarding recommendation. **(Shipped)**
 - **LEARN** and **CHECK** depend on the structured content and knowledge layer. **(Shipped foundation)**
 - A contextual **Learning Copilot** and persisted learner knowledge are **not built**. **(Hypothesis)**
 

@@ -1,5 +1,7 @@
 # Building Module from 0 to 1
 
+*Version française : [01-building-bymodule-from-0-to-1.fr.md](01-building-bymodule-from-0-to-1.fr.md)*
+
 **Author:** Alex Dionisio
 **Role:** Founder, Product Manager, and builder
 **Product:** [Module](https://bymodule.com)
@@ -33,7 +35,7 @@ I worked across those areas rather than handing the implementation to a separate
 
 The frontend uses React 19, Vite, Tailwind CSS 4 and shadcn/ui. Firebase provides authentication, data storage (EU region) and server-side functions. Stripe supports checkout and billing. The public site is served through Cloudflare Pages.
 
-**In progress:** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (data export and account deletion).
+**Shipped (29 September 2026):** a first-sign-in onboarding that recommends the most relevant course and a realistic pace, and self-service data rights (data export and account deletion).
 
 ## Access and payments
 

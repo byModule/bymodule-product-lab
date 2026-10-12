@@ -1,130 +1,130 @@
-# Playbook 01 : cadrer une plateforme de formation avant de la construire
+# Playbook 01: frame a learning platform before you build it
 
-> **English summary.** Before building a learning platform, write a one-page product brief that settles five things: the job to be done (who, what capability, which concrete deliverable), the anti-references you refuse to become, the unit of value (a capability, not a topic), what success means for a visitor and for a learner, and what must be proven for free before anyone pays. Keep it short (mine is under 400 words), store it next to the code, and give it to every person and AI agent who works on the product. I wrote mine after the catalogue existed; this playbook argues for writing it first. The body is in French because the readers of these playbooks are mostly French-speaking Product Managers. It ends with five steps to apply the method to your own project.
+*Version française : [01-frame-a-learning-platform.fr.md](01-frame-a-learning-platform.fr.md)*
 
-*Temps de lecture : 10 min · Temps d'application : une demi-journée · Outils : aucun en particulier*
+*Reading time: 10 min · Time to apply: half a day · Tools: none in particular*
 
-**Ce que vous aurez à la fin** : une page de cadrage qui dit pour qui vous construisez, ce que ces personnes doivent savoir faire après, ce que vous refusez de devenir, et comment vous saurez que ça marche. Le contenu, le code, le design et la communication en découlent.
+**What you will have at the end**: a one-page brief that says who you are building for, what those people must be able to do afterwards, what you refuse to become, and how you will know it works. Content, code, design and communication follow from it.
 
 ---
 
-## Pourquoi ce playbook
+## Why this playbook
 
-J'ai commencé Module le 13 mars 2026 avec un dépôt vide. Au 12 octobre 2026, la branche principale compte 705 commits. Avec le recul, ce qui tranche le plus de questions n'est pas une décision technique : c'est une page de cadrage, `PRODUCT.md`, qui tient en moins de 400 mots.
+I started Module on 13 March 2026 with an empty repository. As of 12 October 2026, the main branch has 705 commits. Looking back, what settles the most questions is not a technical decision: it is a one-page brief, `PRODUCT.md`, that fits in under 400 words.
 
-Cette page sert de référence quand une décision n'est pas évidente : faut-il ajouter une formation « tendance », un compte à rebours sur une offre, un extrait gratuit plutôt qu'un cours complet ? La réponse est souvent déjà écrite. Voici comment la construire.
+That page is the reference when a decision is not obvious: should I add a "trending" course, a countdown on an offer, a free excerpt rather than a full course? The answer is often already written. Here is how to build it.
 
-## 1. Écrire le job à faire, pas le sujet
+## 1. Write the job to be done, not the topic
 
-Un sujet (« l'IA pour les PM ») ne dit pas quoi construire. Un job à faire, si.
+A topic ("AI for PMs") does not tell you what to build. A job to be done does.
 
-Formulez-le ainsi : **« [Qui] veut [obtenir quoi] parce que [situation], et repart avec [livrable concret]. »**
+Phrase it like this: **"[Who] wants [to get what] because [situation], and leaves with [concrete deliverable]."**
 
-Pour Module :
+For Module:
 
-> Des Product Managers (et des fondateurs, PO, designers de produits numériques) veulent comprendre l'IA et la tech assez bien pour **décider, challenger les ingénieurs et livrer**, parce qu'on leur demande des arbitrages qu'ils ne peuvent pas toujours vérifier. Ils repartent de chaque formation avec **un livrable construit sur leur propre produit**.
+> Product Managers (and founders, POs, designers of digital products) want to understand AI and technology well enough to **decide, challenge engineers and ship**, because they are asked to make trade-offs they cannot always verify. They leave each course with **a deliverable built on their own product**.
 
-Le morceau qui compte le plus : « un livrable construit sur leur propre produit ». C'est lui qui impose la structure des leçons et le format des exercices.
+The part that matters most: "a deliverable built on their own product". It dictates the structure of the lessons and the format of the exercises.
 
-**Test** : si votre phrase marche aussi bien pour un concurrent, elle n'est pas finie.
+**Test**: if your sentence works just as well for a competitor, it is not finished.
 
-## 2. Nommer ce que vous refusez de devenir
+## 2. Name what you refuse to become
 
-C'est l'étape la plus souvent sautée. Listez trois ou quatre produits ou formats que vos utilisateurs connaissent et que vous ne voulez pas être, en précisant pourquoi.
+This is the step most often skipped. List three or four products or formats your users know and that you do not want to be, and say why.
 
-Pour Module :
+For Module:
 
-| Anti-référence | Ce que cela exclut concrètement |
+| Anti-reference | What it rules out in practice |
 |---|---|
-| Le LMS d'entreprise daté | Une interface grise, lourde, pilotée par des formulaires |
-| La page de vente « gourou » | Comptes à rebours, promesses de revenus, faux témoignages, avalanches de bonus |
-| Le SaaS IA générique | Dégradés violets, « AI-powered » partout, grilles d'icônes interchangeables |
-| Le catalogue vidéo | Des centaines de vidéos, des étoiles, aucun livrable |
+| The dated corporate LMS | A grey, heavy, form-driven interface |
+| The "guru" sales page | Countdowns, income promises, fake testimonials, avalanches of bonuses |
+| The generic AI SaaS | Purple gradients, "AI-powered" everywhere, interchangeable icon grids |
+| The video catalogue | Hundreds of videos, star ratings, no deliverable |
 
-Chaque ligne devient une règle de design, de contenu ou de communication. « Pas de faux témoignages » veut dire : on ne cite un retour qu'avec l'accord de son auteur. « Aucun livrable » veut dire : pas de formation sans livrable.
+Each row becomes a design, content or communication rule. "No fake testimonials" means: feedback is quoted only with its author's consent. "No deliverable" means: no course without a deliverable.
 
-## 3. Choisir l'unité de valeur
+## 3. Choose the unit of value
 
-Qu'est-ce que l'apprenant obtient vraiment ? Des heures de vidéo ? Un accès ? Un certificat ? Une capacité ?
+What does the learner actually get? Hours of video? Access? A certificate? A capability?
 
-Pour Module, l'unité est **la capacité** : une formation porte sur ce que l'apprenant saura faire (spécifier une fonctionnalité IA, lire une architecture, interroger des données, mener un test A/B), et se termine par un livrable. Trois conséquences :
+For Module, the unit is **the capability**: a course is about what the learner will be able to do (specify an AI feature, read an architecture, query data, run an A/B test), and it ends with a deliverable. Three consequences:
 
-1. **Le catalogue se lit comme une liste de compétences**, pas comme un sommaire.
-2. **La durée devient secondaire** : ce qui compte, c'est que la capacité soit acquise et le livrable produit.
-3. **La valeur se lit dans le livrable**, pas dans le volume de contenu.
+1. **The catalogue reads as a list of skills**, not as a table of contents.
+2. **Duration becomes secondary**: what counts is that the capability is acquired and the deliverable produced.
+3. **Value shows in the deliverable**, not in the volume of content.
 
-**Test** : relisez vos trois premiers titres. Un PM peut-il dire à son manager « j'ai suivi ça, voilà ce que j'ai produit » ?
+**Test**: reread your first three titles. Can a PM tell their manager "I took this, here is what I produced"?
 
-## 4. Définir la réussite, à deux niveaux
+## 4. Define success, at two levels
 
-Une phrase pour le visiteur, une pour l'apprenant. Elles deviennent vos indicateurs.
+One sentence for the visitor, one for the learner. They become your indicators.
 
-> **Visiteur** : il comprend en quelques secondes que la plateforme est faite pour lui, commence le premier cours offert, le termine, et continue.
+> **Visitor**: they understand within a few seconds that the platform is made for them, start the free first course, finish it, and keep going.
 >
-> **Apprenant** : il progresse sans friction et revient.
+> **Learner**: they progress without friction and come back.
 
-De ces deux phrases, je tire les chiffres que je publie chaque mois (visites, inscriptions, complétion du cours offert, achats, retours qualifiés) : voir la [page des chiffres](../metrics/README.md). Le passage de l'inscription à la complétion est celui qui dit si la promesse est tenue.
+From these two sentences I derive the numbers I publish every month (visits, sign-ups, completion of the free course, purchases, qualified feedback): see the [metrics page](../metrics/README.md). The step from sign-up to completion is the one that tells whether the promise is kept.
 
-## 5. Écrire des principes de design (cinq au maximum)
+## 5. Write design principles (five at most)
 
-Pas des valeurs : des **règles que l'on peut vérifier sur un écran**. Les miens :
+Not values: **rules you can check on a screen**. Mine:
 
-1. **Montrer le livrable, pas les heures.** Chaque écran rend visible le résultat concret.
-2. **Une confiance d'expert, sans emphase.** Les affirmations sont précises et vérifiables.
-3. **De l'élan.** La prochaine étape est toujours évidente : commencer, continuer, passer à la formation suivante du parcours.
-4. **Respecter le temps de l'apprenant.** Court, dense, facile à parcourir, sans remplissage décoratif.
-5. **Un système, deux langues.** Le français et l'anglais sont traités à égalité, sans mélange ni approximation.
+1. **Show the deliverable, not the hours.** Every screen makes the concrete result visible.
+2. **Expert confidence, without emphasis.** Claims are precise and verifiable.
+3. **Momentum.** The next step is always obvious: start, continue, move on to the next course in the path.
+4. **Respect the learner's time.** Short, dense, easy to scan, no decorative filler.
+5. **One system, two languages.** French and English are treated as equals, with no mixing and no approximation.
 
-Le cinquième principe coûte cher : chaque formation existe deux fois, chaque page publique aussi. Je l'ai gardé parce que les PM travaillent souvent dans les deux langues, et qu'un produit à moitié traduit contredit le deuxième principe.
+The fifth principle is expensive: every course exists twice, and so does every public page. I kept it because PMs often work in both languages, and a half-translated product contradicts the second principle.
 
-## 6. Décider ce qui est gratuit, et pourquoi
+## 6. Decide what is free, and why
 
-C'est une décision de cadrage avant d'être une décision de prix. La question : **qu'est-ce qui doit être prouvé avant qu'on vous paie ?**
+This is a framing decision before it is a pricing decision. The question: **what must be proven before anyone pays you?**
 
-Pour Module, il faut prouver que la promesse « un livrable sur votre propre produit » est tenue. Le premier cours est donc offert en entier : un extrait de quelques minutes ne prouverait rien.
+For Module, the promise "a deliverable on your own product" must be shown to hold. So the first course is free in full: an excerpt of a few minutes would prove nothing.
 
-Ce choix a une conséquence directe sur l'onboarding : il faut recommander le bon premier cours, sinon la preuve tombe à plat. D'où quelques questions à la première connexion (rôle, objectif, niveau, temps disponible) avant de proposer une formation.
+This choice has a direct consequence on onboarding: the right first course has to be recommended, otherwise the proof falls flat. Hence a few questions at first sign-in (role, goal, level, available time) before a course is suggested.
 
-## 7. Garder la page à côté du code
+## 7. Keep the page next to the code
 
-Un cadrage ne sert que s'il est lu. Le mien est un fichier `PRODUCT.md` placé avec le code de la plateforme. Il est lu :
+A brief is only useful if it is read. Mine is a `PRODUCT.md` file stored with the platform's code. It is read:
 
-- par moi, avant un arbitrage de roadmap ;
-- par les agents IA avec lesquels je produis le contenu et le code : ils le reçoivent en contexte, ce qui limite les dérives de ton et de périmètre ;
-- par toute personne qui relit une formation.
+- by me, before a roadmap trade-off;
+- by the AI agents I produce content and code with: they receive it in context, which limits drift in tone and scope;
+- by anyone who reviews a course.
 
-Structure, dans l'ordre :
+Structure, in order:
 
 ```
 # Product
-## Users              le job à faire (étape 1)
-## Product Purpose    l'unité de valeur et la réussite (étapes 3 et 4)
-## Brand Personality  la voix, en trois adjectifs et deux phrases
-## Anti-references    étape 2
-## Design Principles  étape 5
-## Accessibility      ce qui n'est pas négociable (pour Module : WCAG 2.2 AA, en français et en anglais)
+## Users              the job to be done (step 1)
+## Product Purpose    the unit of value and success (steps 3 and 4)
+## Brand Personality  the voice, in three adjectives and two sentences
+## Anti-references    step 2
+## Design Principles  step 5
+## Accessibility      what is not negotiable (for Module: WCAG 2.2 AA, in French and in English)
 ```
 
-Si la page dépasse 400 mots, c'est souvent qu'une question n'est pas encore tranchée.
+If the page goes over 400 words, it often means a question has not been settled yet.
 
 ---
 
-## Ce que je ferais autrement
+## What I would do differently
 
-J'ai écrit `PRODUCT.md` le 1er octobre 2026, alors que les 31 formations du catalogue existaient déjà. Il a surtout servi à cadrer la refonte du design et la suite. Écrit plus tôt, il aurait sans doute évité des allers-retours sur le ton et le périmètre des premières formations. Écrivez-le avant le premier contenu.
+I wrote `PRODUCT.md` on 1 October 2026, when the 31 courses in the catalogue already existed. It mostly served to frame the design overhaul and what came next. Written earlier, it would probably have avoided some back-and-forth on the tone and scope of the first courses. Write it before the first piece of content.
 
-## Pour reproduire chez vous : 5 étapes
+## To reproduce it yourself: 5 steps
 
-1. **Écrivez le job à faire** en une phrase, avec le livrable concret à la fin. Vérifiez qu'elle ne marche pas aussi pour un concurrent.
-2. **Listez trois anti-références** et, pour chacune, la règle concrète qu'elle impose.
-3. **Choisissez votre unité de valeur** et relisez vos trois premiers titres à sa lumière.
-4. **Définissez la réussite** en une phrase pour le visiteur et une pour l'apprenant, puis déduisez-en cinq ou six chiffres à suivre.
-5. **Décidez ce qui est gratuit** en répondant à « qu'est-ce qui doit être prouvé avant qu'on me paie ? », puis rassemblez le tout dans une page de moins de 400 mots, rangée à côté du code et donnée à chaque personne ou agent qui travaille sur le produit.
+1. **Write the job to be done** in one sentence, with the concrete deliverable at the end. Check that it does not also work for a competitor.
+2. **List three anti-references** and, for each, the concrete rule it imposes.
+3. **Choose your unit of value** and reread your first three titles in its light.
+4. **Define success** in one sentence for the visitor and one for the learner, then derive five or six numbers to track.
+5. **Decide what is free** by answering "what must be proven before anyone pays me?", then gather everything on a page of under 400 words, stored next to the code and given to every person or agent who works on the product.
 
-## Liens
+## Links
 
-- La plateforme : [bymodule.com](https://bymodule.com/fr?utm_source=github&utm_medium=repo&utm_campaign=productlab&utm_content=playbook-01)
-- La formation qui applique cette démarche à votre propre projet de formation : [Concevoir et lancer une formation en ligne efficace](https://bymodule.com/fr/formations/module-formation-en-ligne?utm_source=github&utm_medium=repo&utm_campaign=productlab&utm_content=playbook-01)
-- Décision liée : [001 : le contenu des formations vit dans des fichiers structurés, vérifiés comme du code](../decisions/001-content-as-tested-structured-files.md) (en anglais)
+- The platform: [bymodule.com](https://bymodule.com/en?utm_source=github&utm_medium=repo&utm_campaign=productlab&utm_content=playbook-01)
+- The course that applies this approach to your own course project: [Design and launch an effective online course](https://bymodule.com/en/courses/launch-online-course?utm_source=github&utm_medium=repo&utm_campaign=productlab&utm_content=playbook-01)
+- Related decision: [001: course content lives in structured files and is checked like code](../decisions/001-content-as-tested-structured-files.md)
 
-*Une question, un désaccord ? Ouvrez une discussion dans la catégorie « Questions about the method » des [Discussions](https://github.com/byModule/bymodule-product-lab/discussions).*
+*A question, a disagreement? Start a discussion in the "Questions about the method" category of the [Discussions](https://github.com/byModule/bymodule-product-lab/discussions).*

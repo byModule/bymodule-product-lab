@@ -1,5 +1,7 @@
 # Metrics
 
+*Version française : [README.fr.md](README.fr.md)*
+
 From October 2026, I publish usage figures for the Module learning platform every month and revenue every quarter. This page explains what is counted, where the numbers come from, and the rules I follow. No figures are published yet: the first file is due on 2 November 2026.
 
 ## What will be published
