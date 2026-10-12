@@ -1,6 +1,6 @@
 # Module Product Lab
 
-[English version](README.md)
+*English version: [README.md](README.md)*
 
 [Module](https://bymodule.com) est une plateforme de formation pour les Product Managers, écrite pour des praticiens qui construisent des produits numériques. Je l'ai conçue et construite dans le cadre de [Module](https://bymodule.io), mon activité indépendante de produit numérique.
 
@@ -10,20 +10,22 @@ Ce dépôt documente une sélection de décisions produit, d'arbitrages techniqu
 
 | Section | Ce que vous y trouvez |
 | --- | --- |
-| [Roadmap](ROADMAP.md) | Now, Next et Later, avec un statut sur chaque élément. Revue chaque mois. En anglais. |
-| [Changelog](CHANGELOG.md) | Une ligne par livraison de la plateforme depuis la publication de ce lab, le 29 septembre 2026. En anglais. |
-| [Décisions](decisions/001-content-as-tested-structured-files.md) | Une décision par fichier : contexte, options, décision, conséquences. Le [modèle](decisions/000-template.md) sert de point de départ. En anglais. |
-| [Playbooks](playbooks/01-frame-a-learning-platform.md) | Des guides reproductibles pour les Product Managers, en français avec un résumé en anglais. |
-| [Chiffres](metrics/README.md) | Ce que je publie, d'où viennent les chiffres, et quand. En anglais. |
-| [Architecture](architecture/platform-overview.md) | L'organisation de la plateforme, au niveau de l'architecture produit. En anglais. |
-| [Étude de cas](case-studies/01-building-bymodule-from-0-to-1.md) | Construire Module de 0 à 1. En anglais. |
+| [Roadmap](ROADMAP.fr.md) | Now, Next et Later, avec un statut sur chaque élément. Revue chaque mois. |
+| [Changelog](CHANGELOG.fr.md) | Une ligne par livraison de la plateforme depuis la publication de ce lab, le 29 septembre 2026. |
+| [Décisions](decisions/001-content-as-tested-structured-files.fr.md) | Une décision par fichier : contexte, options, décision, conséquences. Le [modèle](decisions/000-template.fr.md) sert de point de départ. |
+| [Playbooks](playbooks/01-frame-a-learning-platform.fr.md) | Des guides reproductibles pour les Product Managers. |
+| [Chiffres](metrics/README.fr.md) | Ce que je publie, d'où viennent les chiffres, et quand. |
+| [Architecture](architecture/platform-overview.fr.md) | L'organisation de la plateforme, au niveau de l'architecture produit. |
+| [Étude de cas](case-studies/01-building-bymodule-from-0-to-1.fr.md) | Construire Module de 0 à 1. |
 | [Discussions](https://github.com/byModule/bymodule-product-lab/discussions) | Idées de formations, retours sur la plateforme, questions sur la méthode. |
+
+Chaque document existe en anglais, avec sa version française à côté (`.fr.md`).
 
 ## Ce qui a changé (octobre 2026)
 
 À sa publication en septembre, ce lab contenait une étude de cas et une vue d'ensemble de l'architecture. Depuis octobre 2026, il contient aussi :
 
-- **Des chiffres.** Les chiffres d'usage chaque mois et les revenus chaque trimestre, à commencer par le fichier d'usage d'octobre, le 2 novembre 2026. La [page des chiffres](metrics/README.md) explique ce qui est compté et d'où cela vient.
+- **Des chiffres.** Les chiffres d'usage chaque mois et les revenus chaque trimestre, à commencer par le fichier d'usage d'octobre, le 2 novembre 2026. La [page des chiffres](metrics/README.fr.md) explique ce qui est compté et d'où cela vient.
 - **Une roadmap publique**, avec les mêmes statuts que le reste du dépôt.
 - **Un changelog** des livraisons de la plateforme.
 - **Des décisions et des playbooks**, en commençant par un de chaque.
@@ -31,7 +33,7 @@ Ce dépôt documente une sélection de décisions produit, d'arbitrages techniqu
 
 ## Le produit
 
-La plateforme livrée, décrite dans la [première étude de cas](case-studies/01-building-bymodule-from-0-to-1.md), comprend :
+La plateforme livrée, décrite dans la [première étude de cas](case-studies/01-building-bymodule-from-0-to-1.fr.md), comprend :
 
 - Un catalogue de 31 formations, chacune créée en français et en anglais selon un standard de contenu structuré.
 - La découverte des formations, des pages programme avec objectifs pédagogiques et livrables, et une recherche.
@@ -57,7 +59,7 @@ Module est à la fois mon activité de produit numérique ([bymodule.io](https:/
 
 ## Une décision de la première version
 
-La plateforme propose des essais, des abonnements et l'achat de formations. Les descriptions publiques des formations et le contenu payant n'ont pas le même rôle : j'ai donc séparé la découverte de l'accès au contenu pédagogique. L'[étude de cas](case-studies/01-building-bymodule-from-0-to-1.md#access-and-payments) explique cet arbitrage produit dans les grandes lignes.
+La plateforme propose des essais, des abonnements et l'achat de formations. Les descriptions publiques des formations et le contenu payant n'ont pas le même rôle : j'ai donc séparé la découverte de l'accès au contenu pédagogique. L'[étude de cas](case-studies/01-building-bymodule-from-0-to-1.fr.md#accès-et-paiements) explique cet arbitrage produit dans les grandes lignes.
 
 ## Ce que j'ai observé
 
@@ -82,9 +84,9 @@ La séquence d'apprentissage proposée :
 
 ## Lire l'étude de cas
 
-[Building Module from 0 to 1](case-studies/01-building-bymodule-from-0-to-1.md) (en anglais) couvre la première version, les décisions qui l'ont façonnée et ce que je changerais.
+[Construire Module de 0 à 1](case-studies/01-building-bymodule-from-0-to-1.fr.md) couvre la première version, les décisions qui l'ont façonnée et ce que je changerais.
 
-La [vue d'ensemble de la plateforme](architecture/platform-overview.md) (en anglais) décrit l'organisation de la plateforme, au niveau de l'architecture produit.
+La [vue d'ensemble de la plateforme](architecture/platform-overview.fr.md) décrit l'organisation de la plateforme, au niveau de l'architecture produit.
 
 Des captures d'écran du produit et d'autres décisions sont prévues. Elles seront ajoutées après vérification de leurs fondements factuels et de leur caractère publiable.
 

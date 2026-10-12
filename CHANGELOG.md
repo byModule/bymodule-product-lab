@@ -1,5 +1,7 @@
 # Changelog
 
+*Version française : [CHANGELOG.fr.md](CHANGELOG.fr.md)*
+
 One line per delivery to the live Module learning platform ([bymodule.com](https://bymodule.com)), newest first, since this lab was published. Dates are production release dates. Small fixes are grouped; internal tooling is not listed. What is planned lives in the [roadmap](ROADMAP.md).
 
 ## October 2026

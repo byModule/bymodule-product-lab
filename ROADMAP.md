@@ -1,6 +1,6 @@
 # Roadmap
 
-> **En français :** cette roadmap est en anglais. Le [README en français](README.fr.md) présente le dépôt et explique les statuts.
+*Version française : [ROADMAP.fr.md](ROADMAP.fr.md)*
 
 Last reviewed: 2026-10-19
 
