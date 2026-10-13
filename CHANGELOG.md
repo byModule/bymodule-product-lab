@@ -6,6 +6,7 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## October 2026
 
+- **2026-10-13** · A What's new page lists every change to the platform, by release date.
 - **2026-10-12** · English URLs for English lesson pages, with permanent redirects from the former addresses.
 - **2026-10-12** · Public lesson pages show the outcomes of their module instead of the whole course; the lesson pages of five courses also show the questions each lesson answers (first batch).
 - **2026-10-08** · Search fixes: the onboarding page is prerendered for search engines, five lessons get distinct titles, and the navigation menu loads its full content only when first opened.

@@ -6,6 +6,7 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Octobre 2026
 
+- **2026-10-13** · Une page Nouveautés liste chaque évolution de la plateforme, par date de mise en ligne.
 - **2026-10-12** · Des URL en anglais pour les pages de leçon en anglais, avec des redirections permanentes depuis les anciennes adresses.
 - **2026-10-12** · Les pages de leçon publiques affichent les objectifs de leur module plutôt que ceux de toute la formation ; les pages de leçon de cinq formations affichent aussi les questions auxquelles répond chaque leçon (premier lot).
 - **2026-10-08** · Corrections pour les moteurs de recherche : la page d'onboarding est prérendue pour les moteurs de recherche, cinq leçons reçoivent des titres distincts, et le menu de navigation ne charge son contenu complet qu'à la première ouverture.
