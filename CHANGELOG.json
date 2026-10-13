@@ -1,0 +1,158 @@
+[
+  {
+    "date": "2026-10-13",
+    "type": "plateforme",
+    "fr": "Une page Nouveautés liste chaque évolution de la plateforme, par date de mise en ligne.",
+    "en": "A What's new page lists every change to the platform, by release date."
+  },
+  {
+    "date": "2026-10-12",
+    "type": null,
+    "fr": "Les pages de leçon publiques affichent les objectifs de leur module plutôt que ceux de toute la formation ; les pages de leçon de cinq formations affichent aussi les questions auxquelles répond chaque leçon (premier lot).",
+    "en": "Public lesson pages show the outcomes of their module instead of the whole course; the lesson pages of five courses also show the questions each lesson answers (first batch)."
+  },
+  {
+    "date": "2026-10-12",
+    "type": null,
+    "fr": "Des URL en anglais pour les pages de leçon en anglais, avec des redirections permanentes depuis les anciennes adresses.",
+    "en": "English URLs for English lesson pages, with permanent redirects from the former addresses."
+  },
+  {
+    "date": "2026-10-08",
+    "type": null,
+    "fr": "Corrections pour les moteurs de recherche : la page d'onboarding est prérendue pour les moteurs de recherche, cinq leçons reçoivent des titres distincts, et le menu de navigation ne charge son contenu complet qu'à la première ouverture.",
+    "en": "Search fixes: the onboarding page is prerendered for search engines, five lessons get distinct titles, and the navigation menu loads its full content only when first opened."
+  },
+  {
+    "date": "2026-10-06",
+    "type": null,
+    "fr": "E-mail d'annonce des nouvelles formations. Une formation ajoutée à un parcours est accordée aux personnes qui ont déjà acheté ce parcours, et les conditions de vente le précisent.",
+    "en": "New course announcement email. A course added to a learning path is granted to the path's past buyers, and the terms of sale say so."
+  },
+  {
+    "date": "2026-10-06",
+    "type": null,
+    "fr": "Administration : une page d'audience qui lit Google Analytics (en lecture seule). Correction : les mesures d'audience de bymodule.com étaient bloquées par la politique de sécurité du contenu jusqu'à cette livraison.",
+    "en": "Administration: an audience page that reads Google Analytics (read only). Fix: analytics hits from bymodule.com were blocked by the content security policy until this release."
+  },
+  {
+    "date": "2026-10-05",
+    "type": null,
+    "fr": "Administration : une vue des motifs de résiliation, et les événements du parcours de résiliation dans la mesure d'audience. La vérification en deux étapes devient obligatoire pour les comptes de l'équipe.",
+    "en": "Administration: a view of cancellation reasons, and cancellation flow events in analytics. Two-step verification becomes mandatory for staff accounts."
+  },
+  {
+    "date": "2026-10-05",
+    "type": null,
+    "fr": "Toutes les formations suivent la même intégration (recommandation de l'onboarding, certificats, paiement, visibilité dans le catalogue), vérifiée par un test qui s'exécute sur chaque formation.",
+    "en": "Every course follows the same integration (onboarding recommendation, certificates, checkout, catalogue visibility), checked by a test that runs on every course."
+  },
+  {
+    "date": "2026-10-05",
+    "type": null,
+    "fr": "Centre de notifications de l'apprenant : marquer comme lu ou non lu, supprimer, filtrer.",
+    "en": "Learner notification centre: mark as read or unread, delete, filter."
+  },
+  {
+    "date": "2026-10-04",
+    "type": null,
+    "fr": "Une mise en page unique pour tous les e-mails de la plateforme. Les apprenants restent connectés après l'inscription et arrivent sur leur formation après le paiement. Le logo du tableau de bord et du lecteur de formation ramène à l'accueil du tableau de bord.",
+    "en": "One layout for every platform email. Learners stay signed in after sign-up and land on their course after payment. The logo in the dashboard and the course player leads back to the dashboard home."
+  },
+  {
+    "date": "2026-10-03",
+    "type": null,
+    "fr": "Des résultats enrichis valides pour les formations et des titres de page uniques pour les moteurs de recherche ; durcissement contre les abus.",
+    "en": "Valid course rich results and unique page titles for search engines; anti-abuse hardening."
+  },
+  {
+    "date": "2026-10-03",
+    "type": null,
+    "fr": "Paramètres du compte pour changer de mot de passe et régler les préférences de notification ; un centre d'aide plus dense, avec des liens directs.",
+    "en": "Account settings for password change and notification preferences; a denser help centre with direct links."
+  },
+  {
+    "date": "2026-10-03",
+    "type": null,
+    "fr": "Résiliation dans l'application, avec des offres : un court questionnaire, une pause d'un à trois mois, un mois offert, des alternatives au Pass, et la réactivation.",
+    "en": "In-app cancellation with offers: a short survey, a pause of one to three months, a free month, alternatives to the Pass, and reactivation."
+  },
+  {
+    "date": "2026-10-03",
+    "type": null,
+    "fr": "Des e-mails de cycle de vie aux moments clés du parcours de l'apprenant, dont un rappel avant la fin de l'offre de lancement.",
+    "en": "Lifecycle emails at key moments of the learner journey, including a reminder before the launch offer ends."
+  },
+  {
+    "date": "2026-10-02",
+    "type": null,
+    "fr": "Des rôles pour l'équipe et la vérification en deux étapes pour les comptes de l'équipe.",
+    "en": "Staff roles and two-step verification for staff accounts."
+  },
+  {
+    "date": "2026-10-02",
+    "type": null,
+    "fr": "Refonte : un langage visuel inspiré du dessin technique sur la page d'accueil, les pages publiques, le tableau de bord et le lecteur de formation.",
+    "en": "Redesign: a technical-drawing visual language across the home page, public pages, dashboard and course player."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "Durcissement de la sécurité de l'authentification et des services côté serveur, dont un mot de passe de 10 caractères minimum. Finitions du tableau de bord.",
+    "en": "Security hardening across authentication and backend services, including a 10-character minimum password. Dashboard polish."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "La durée de formation affichée dans le lecteur reflète le temps réellement passé à l'écran.",
+    "en": "Course time in the player reflects real on-screen time."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "Des aperçus publics des leçons pour les 22 formations qui n'en avaient pas encore.",
+    "en": "Public lesson previews for the 22 courses that did not have them yet."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "Un glossaire public de 31 notions de Product Management, en français et en anglais.",
+    "en": "Public glossary of 31 Product Management concepts, in French and English."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "Un espace ressources public avec des filtres ; le glossaire devient une page Bibliothèque dans le tableau de bord.",
+    "en": "Public resource hub with filters; the glossary becomes a Library page in the dashboard."
+  },
+  {
+    "date": "2026-10-01",
+    "type": null,
+    "fr": "Des certificats pour les formations et les parcours : délivrés, partageables sur LinkedIn, vérifiables, avec cinq niveaux nommés.",
+    "en": "Certificates for courses and learning paths: issued, shareable on LinkedIn, verifiable, with five named levels."
+  },
+  {
+    "date": "2026-09-30",
+    "type": null,
+    "fr": "Les parcours dans le tableau de bord, avec la progression dans le parcours et une célébration à la fin ; des ressources (sites web et dépôts GitHub) dans le tableau de bord ; affichage du prix annuel du Pass.",
+    "en": "Learning paths in the dashboard, with path progression and a completion celebration; resources (websites and GitHub repositories) in the dashboard; yearly Pass price shown."
+  },
+  {
+    "date": "2026-09-30",
+    "type": null,
+    "fr": "Refonte de l'accueil, de la page des prix et de la recherche, avec des pages de section et des pages de parcours.",
+    "en": "Home, pricing and search overhaul, with section pages and learning path pages."
+  },
+  {
+    "date": "2026-09-29",
+    "type": null,
+    "fr": "Publication du Product Lab, qui décrit la plateforme telle que livrée à cette date : 31 formations en français et en anglais, un design system sur shadcn/ui avec thème clair et thème sombre, la langue portée par l'URL.",
+    "en": "Product Lab published, describing the platform as shipped at that date: 31 courses in French and English, a design system on shadcn/ui with light and dark themes, the language carried by the URL."
+  },
+  {
+    "date": "2026-09-29",
+    "type": null,
+    "fr": "Un onboarding à la première connexion qui recommande une formation, l'exercice des droits sur les données en libre-service, des micro-interactions et une offre de lancement.",
+    "en": "First-sign-in onboarding that recommends a course, self-service data rights, micro-interactions and a launch offer."
+  }
+]
