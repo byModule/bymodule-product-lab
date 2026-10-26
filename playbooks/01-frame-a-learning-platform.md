@@ -10,7 +10,7 @@
 
 ## Why this playbook
 
-I started Module on 13 March 2026 with an empty repository. As of 12 October 2026, the main branch has 705 commits. Looking back, what settles the most questions is not a technical decision: it is a one-page brief, `PRODUCT.md`, that fits in under 400 words.
+I started Module on 13 March 2026 with an empty repository, while preparing an in-person course I gave at the Stellar Club, an entrepreneurs' club in Marseille. I then set it aside to let the courses mature, and picked it up again in September 2026: as of 12 October 2026, the main branch has 705 commits, nearly all of them since September. Looking back, what settles the most questions is not a technical decision: it is a one-page brief, `PRODUCT.md`, that fits in under 400 words.
 
 That page is the reference when a decision is not obvious: should I add a "trending" course, a countdown on an offer, a free excerpt rather than a full course? The answer is often already written. Here is how to build it.
 

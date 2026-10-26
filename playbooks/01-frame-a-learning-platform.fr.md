@@ -10,7 +10,7 @@
 
 ## Pourquoi ce playbook
 
-J'ai commencé Module le 13 mars 2026 avec un dépôt vide. Au 12 octobre 2026, la branche principale compte 705 commits. Avec le recul, ce qui tranche le plus de questions n'est pas une décision technique : c'est une page de cadrage, `PRODUCT.md`, qui tient en moins de 400 mots.
+J'ai commencé Module le 13 mars 2026 avec un dépôt vide, en préparant une formation en présentiel donnée au Stellar Club, un club d'entrepreneurs à Marseille. Je l'ai ensuite mis de côté pour laisser mûrir les formations, puis repris en septembre 2026 : au 12 octobre 2026, la branche principale compte 705 commits, presque tous depuis septembre. Avec le recul, ce qui tranche le plus de questions n'est pas une décision technique : c'est une page de cadrage, `PRODUCT.md`, qui tient en moins de 400 mots.
 
 Cette page sert de référence quand une décision n'est pas évidente : faut-il ajouter une formation « tendance », un compte à rebours sur une offre, un extrait gratuit plutôt qu'un cours complet ? La réponse est souvent déjà écrite. Voici comment la construire.
 
