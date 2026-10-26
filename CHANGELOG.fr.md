@@ -6,6 +6,9 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Octobre 2026
 
+- **2026-10-26** · Nouvelle page « Formation IA pour Product Manager » qui rassemble les formations IA, et deux nouvelles entrées dans le glossaire : LLM et prompt.
+- **2026-10-19** · Le site fait peau neuve : une typographie plus affirmée, une page d'accueil plus courte et plus directe, et une identité alignée sur celle du studio Module.
+- **2026-10-19** · À la fin de votre formation offerte, vous pouvez donner votre avis en deux questions.
 - **2026-10-13** · Une page Nouveautés liste chaque évolution de la plateforme, par date de mise en ligne.
 - **2026-10-12** · Des URL en anglais pour les pages de leçon en anglais, avec des redirections permanentes depuis les anciennes adresses.
 - **2026-10-12** · Les pages de leçon publiques affichent les objectifs de leur module plutôt que ceux de toute la formation ; les pages de leçon de cinq formations affichent aussi les questions auxquelles répond chaque leçon (premier lot).

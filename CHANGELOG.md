@@ -6,6 +6,9 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## October 2026
 
+- **2026-10-26** · A new « AI courses for Product Managers » page brings the AI courses together, and the glossary gains two entries: LLM and prompt.
+- **2026-10-19** · The site has a fresh look: bolder typography, a shorter and more direct home page, and an identity aligned with the Module studio.
+- **2026-10-19** · At the end of your free course, you can share your feedback in two questions.
 - **2026-10-13** · A What's new page lists every change to the platform, by release date.
 - **2026-10-12** · English URLs for English lesson pages, with permanent redirects from the former addresses.
 - **2026-10-12** · Public lesson pages show the outcomes of their module instead of the whole course; the lesson pages of five courses also show the questions each lesson answers (first batch).
