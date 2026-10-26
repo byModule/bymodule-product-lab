@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-26",
+    "type": "plateforme",
+    "fr": "Nouvelle page « Formation IA pour Product Manager » qui rassemble les formations IA, et deux nouvelles entrées dans le glossaire : LLM et prompt.",
+    "en": "A new « AI courses for Product Managers » page brings the AI courses together, and the glossary gains two entries: LLM and prompt."
+  },
+  {
+    "date": "2026-10-19",
+    "type": "plateforme",
+    "fr": "Le site fait peau neuve : une typographie plus affirmée, une page d'accueil plus courte et plus directe, et une identité alignée sur celle du studio Module.",
+    "en": "The site has a fresh look: bolder typography, a shorter and more direct home page, and an identity aligned with the Module studio."
+  },
+  {
+    "date": "2026-10-19",
+    "type": "plateforme",
+    "fr": "À la fin de votre formation offerte, vous pouvez donner votre avis en deux questions.",
+    "en": "At the end of your free course, you can share your feedback in two questions."
+  },
+  {
     "date": "2026-10-13",
     "type": "plateforme",
     "fr": "Une page Nouveautés liste chaque évolution de la plateforme, par date de mise en ligne.",
