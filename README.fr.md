@@ -12,7 +12,7 @@ Ce dépôt documente une sélection de décisions produit, d'arbitrages techniqu
 | --- | --- |
 | [Roadmap](ROADMAP.fr.md) | Now, Next et Later, avec un statut sur chaque élément. Revue chaque mois. |
 | [Changelog](CHANGELOG.fr.md) | Une ligne par livraison de la plateforme depuis la publication de ce lab, le 29 septembre 2026. |
-| [Décisions](decisions/001-content-as-tested-structured-files.fr.md) | Une décision par fichier : contexte, options, décision, conséquences. Le [modèle](decisions/000-template.fr.md) sert de point de départ. |
+| [Décisions](decisions/001-content-as-tested-structured-files.fr.md) | Une décision par fichier : contexte, options, décision, conséquences. [001](decisions/001-content-as-tested-structured-files.fr.md) le contenu en fichiers testés, [002](decisions/002-managed-backend-firebase.fr.md) un back-end géré, [003](decisions/003-pricing-before-launch.fr.md) la grille de prix avant le lancement. Le [modèle](decisions/000-template.fr.md) sert de point de départ. |
 | [Playbooks](playbooks/01-frame-a-learning-platform.fr.md) | Des guides reproductibles pour les Product Managers. |
 | [Chiffres](metrics/README.fr.md) | Ce que je publie, d'où viennent les chiffres, et quand. |
 | [Architecture](architecture/platform-overview.fr.md) | L'organisation de la plateforme, au niveau de l'architecture produit. |

@@ -12,7 +12,7 @@ This repository documents selected product decisions, engineering trade-offs, an
 | --- | --- |
 | [Roadmap](ROADMAP.md) | Now, Next and Later, with a status label on every item. Reviewed every month. |
 | [Changelog](CHANGELOG.md) | One line per platform delivery since this lab was published on 29 September 2026. |
-| [Decisions](decisions/001-content-as-tested-structured-files.md) | One decision per file: context, options, decision, consequences. Start from the [template](decisions/000-template.md). |
+| [Decisions](decisions/001-content-as-tested-structured-files.md) | One decision per file: context, options, decision, consequences. [001](decisions/001-content-as-tested-structured-files.md) course content as tested files, [002](decisions/002-managed-backend-firebase.md) a managed back end, [003](decisions/003-pricing-before-launch.md) the price grid before launch. Start from the [template](decisions/000-template.md). |
 | [Playbooks](playbooks/01-frame-a-learning-platform.md) | Reproducible guides for Product Managers. |
 | [Metrics](metrics/README.md) | What I publish, from which source, and when. |
 | [Architecture](architecture/platform-overview.md) | How the platform is organised, at product-architecture level. |
