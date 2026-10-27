@@ -8,7 +8,9 @@
 
 ## Contexte
 
-Une semaine avant le lancement public du 20 octobre, j'ai relu la page de tarifs comme un client. L'« offre de lancement » était un Pass mensuel à 49 €, conservé tant que l'abonnement reste actif, face à un mensuel normal à 59 € ou un annuel à 390 €. Sur un an, l'offre coûtait 588 €, plus que le Pass annuel normal. L'offre était la formule la plus chère de la page : elle ne donnait aucune raison d'agir. Personne n'y avait encore souscrit, ce qui rendait le changement sans effet de bord. Deux autres faits ont pesé : une formation à 39 € paraissait chère pour un premier achat sur une plateforme nouvelle, et une formation (un projet de code avec l'IA) était offerte à tous les comptes, en plus de la formation offerte choisie par chacun.
+Avant le lancement public du 20 octobre, la grille de prix devait suivre la valeur apportée par chaque formule. Chaque formation se termine par un livrable sur le produit de l'apprenant (une spec, un plan d'évaluation, une charte IA) : une formation à l'unité se paie donc comme un livrable. La grille devait aussi proposer trois façons claires d'acheter : à la carte pour un besoin précis, un abonnement avec accès complet pour ceux qui veulent tout le catalogue, et un paiement annuel qui fait vraiment économiser. Les parcours s'ajoutent à ces trois formules, pour les Product Managers qui veulent progresser sur une thématique à travers plusieurs formations.
+
+La grille en place ne passait pas ce test. L'« offre de lancement » était un Pass mensuel à 49 €, conservé tant que l'abonnement reste actif, face à un mensuel normal à 59 € ou un annuel à 390 € : sur un an, l'offre coûtait 588 €, plus que le Pass annuel normal, et ne donnait donc aucune raison d'agir. Une formation à 39 € était chère pour un premier achat sur une plateforme nouvelle, et une formation (un projet de code avec l'IA) était offerte à tous les comptes, en plus de la formation offerte choisie par chacun. Personne n'avait encore souscrit à l'offre de lancement : le changement était sans effet de bord.
 
 ## Options
 
@@ -20,20 +22,20 @@ Une semaine avant le lancement public du 20 octobre, j'ai relu la page de tarifs
 
 ## Décision
 
-L'option C, parce que c'est la seule grille où chaque formule a une raison claire d'exister : l'offre de lancement est la meilleure affaire jusqu'au 31 octobre, l'annuel fait économiser deux mois par rapport au mensuel, et une formation à l'unité est un deuxième achat facile. La formation offerte à tous disparaît : chaque compte a exactement une formation offerte, choisie par l'apprenant.
+L'option C, parce que c'est la seule grille où chaque formule a une raison claire d'exister et un prix cohérent avec ce qu'elle apporte : une formation pour un livrable, un parcours pour une thématique, le Pass pour tout le catalogue, l'annuel pour économiser deux mois, et l'offre de lancement comme meilleure affaire jusqu'au 31 octobre inclus. La formation offerte à tous disparaît : chaque compte a exactement une formation offerte, choisie par l'apprenant.
 
 | | Prix |
 | --- | --- |
 | Formation, accès à vie | 19 € |
-| Parcours, accès à vie | 59 à 169 € (toujours moins cher que ses formations achetées une à une) |
-| Pass mensuel | 39 € (29 € pour les souscriptions jusqu'au 31 octobre 2026, conservé tant que l'abonnement est actif) |
+| Parcours, accès à vie | 59 à 169 € par thématique (AI Product Builder, PM technique, PM augmenté par l'IA, Builder solo, L'IA au quotidien), toujours moins cher que ses formations achetées une à une |
+| Pass mensuel | 39 € (29 € pour les souscriptions jusqu'au 31 octobre 2026 inclus, conservé tant que l'abonnement est actif) |
 | Pass annuel | 390 €, « 2 mois offerts » par rapport au mensuel à 39 € |
 | Première formation | Offerte en entier, choisie par l'apprenant |
 
 ## Conséquences
 
 - Aucun prix barré ni « -x % » : « 2 mois offerts » compare deux formules en vigueur (12 × 39 € = 468 €), jamais un prix antérieur.
-- Les prix augmenteront quand le catalogue et la plateforme auront grandi, et chaque hausse devra se justifier par ce qu'elle apporte. Un abonnement en cours garde son prix, et une formation ou un parcours acheté n'est jamais facturé à nouveau. C'est écrit dans les conditions générales de vente.
+- Les prix sont garantis à la souscription : un abonnement en cours garde le prix auquel il a été pris, et une formation ou un parcours acheté n'est jamais facturé à nouveau. Les prix pour les nouveaux clients augmenteront quand le catalogue et la plateforme auront grandi, et chaque hausse devra se justifier par ce qu'elle apporte. C'est écrit dans les conditions générales de vente.
 - Ce que je surveille : la part des apprenants de la formation offerte qui achètent ensuite, et la part des parcours dans les achats. Les deux figureront dans les [chiffres](../metrics/README.fr.md), chaque mois pour l'usage et chaque trimestre pour les revenus.
 - Les comptes créés avant cette décision ne gardent la formation autrefois offerte à tous que s'ils l'ont utilisée, choisie ou achetée.
 
