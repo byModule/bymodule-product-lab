@@ -8,7 +8,7 @@
 
 ## Context
 
-When I started Module in March 2026, I was building it alone, alongside other work, with no budget for infrastructure. The platform needed from day one what any paid learning product needs: sign-in (email link and Google), roles (learner, admin), per-learner progress, payments, and the obligations that come with personal data (export, deletion). None of this is what makes Module different, and every hour spent running a server is an hour not spent on the courses. Whatever I chose also had to keep running securely without anyone looking after it for weeks. In practice that is what happened: the project was set aside after a first version and picked up again in September 2026.
+When I started Module in March 2026, I was building it alone, alongside other work, with no budget for infrastructure. The platform needed from day one what any paid learning product needs: sign-in (email link and Google), roles (learner, admin), per-learner progress, payments, and the obligations that come with personal data (export, deletion). None of this is what makes Module different. At this stage of the project, with no audience yet to justify it, investing heavily in a dedicated server, its operation and its security was not a sound use of time or money: every hour spent running a server is an hour not spent on the courses. Whatever I chose also had to keep running securely without anyone looking after it for weeks. In practice that is what happened: the project was set aside after a first version and picked up again in September 2026.
 
 ## Options
 
@@ -20,7 +20,7 @@ When I started Module in March 2026, I was building it alone, alongside other wo
 
 ## Decision
 
-Option B. The criterion that settled it: **the platform has to run safely without a dedicated person, so anything that is not specific to Module is bought as a service rather than built.**
+Option B. The criterion that settled it: **at this stage, the best trade-off is to avoid a heavy investment in infrastructure, so anything that is not specific to Module is bought as a service rather than built, and the platform runs safely without a dedicated person.** It is the right technical choice for the current scale, not a permanent one.
 
 How it is split, at the level of principle:
 
@@ -33,8 +33,13 @@ How it is split, at the level of principle:
 
 - **Makes possible:** one person ships payments, accounts, certificates and data rights without operating a server. Since October 2026, a separate pre-production project mirrors production, and deploying the functions to production requires an explicit approval.
 - **Costs and closes off:** the data model and the rules language belong to the vendor, so leaving would mean a migration, not a switch. Reporting needs extra work because the database does not answer ad hoc relational queries. And because billing follows reads and writes, data design matters more than the size of any server: a cost review in October 2026 found avoidable charges, fixed since, and a follow-up on how often learner progress is written.
+- **Scale and exit:** the overall cost stays acceptable while the audience remains modest. If the platform grows significantly, a migration has to be anticipated: first the data that is read and written most often (learner progress), then the server functions. The trigger is the cost per active learner tracked below, not a date.
 - **Requires discipline:** rules are tested against an emulator, secrets live in a secret manager rather than in code, and each production deployment is checked against the right project.
 - **To watch:** infrastructure cost per active learner, and how often a product question cannot be answered without exporting data. I will look at both when the first quarterly revenue figures are published in [metrics](../metrics/README.md).
+
+## Open to discussion
+
+If you would have made a different call in a similar situation, or if you have recommendations for the next step when the audience grows (data model, migration path, alternative services), I would like to hear them in [Discussions](https://github.com/byModule/bymodule-product-lab/discussions).
 
 ## Review
 
