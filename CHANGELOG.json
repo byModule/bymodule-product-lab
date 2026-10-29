@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-29",
+    "type": "plateforme",
+    "fr": "Toutes les formations demandent désormais une évaluation finale de 10 questions pour obtenir le certificat.",
+    "en": "Every course now requires a 10-question final assessment for its certificate."
+  },
+  {
     "date": "2026-10-26",
     "type": "plateforme",
     "fr": "Nouvelle page « Formation IA pour Product Manager » qui rassemble les formations IA, et deux nouvelles entrées dans le glossaire : LLM et prompt.",

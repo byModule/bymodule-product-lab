@@ -6,6 +6,7 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Octobre 2026
 
+- **2026-10-29** · Toutes les formations demandent désormais une évaluation finale de 10 questions pour obtenir le certificat.
 - **2026-10-26** · Nouvelle page « Formation IA pour Product Manager » qui rassemble les formations IA, et deux nouvelles entrées dans le glossaire : LLM et prompt.
 - **2026-10-19** · Le site fait peau neuve : une typographie plus affirmée, une page d'accueil plus courte et plus directe, et une identité alignée sur celle du studio Module.
 - **2026-10-19** · À la fin de votre formation offerte, vous pouvez donner votre avis en deux questions.
