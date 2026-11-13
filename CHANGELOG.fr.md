@@ -4,6 +4,11 @@
 
 Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodule.com](https://bymodule.com)), de la plus récente à la plus ancienne, depuis la publication de ce lab. Les dates sont celles des mises en production. Les petites corrections sont regroupées ; l'outillage interne n'est pas listé. Ce qui est prévu se trouve dans la [roadmap](ROADMAP.fr.md).
 
+## Novembre 2026
+
+- **2026-11-13** · Une page À propos présente qui conçoit les formations et comment elles sont faites.
+- **2026-11-13** · Chaque page de leçon publique répond désormais en bref à sa question principale et à chacune de ses questions.
+
 ## Octobre 2026
 
 - **2026-10-29** · Toutes les formations demandent désormais une évaluation finale de 10 questions pour obtenir le certificat.
