@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-13",
+    "type": "plateforme",
+    "fr": "Une page À propos présente qui conçoit les formations et comment elles sont faites.",
+    "en": "An About page explains who designs the courses and how they are made."
+  },
+  {
+    "date": "2026-11-13",
+    "type": "plateforme",
+    "fr": "Chaque page de leçon publique répond désormais en bref à sa question principale et à chacune de ses questions.",
+    "en": "Every public lesson page now gives a short answer to its main question and to each of its questions."
+  },
+  {
     "date": "2026-10-29",
     "type": "plateforme",
     "fr": "Toutes les formations demandent désormais une évaluation finale de 10 questions pour obtenir le certificat.",

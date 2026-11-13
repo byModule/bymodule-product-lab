@@ -4,6 +4,11 @@
 
 One line per delivery to the live Module learning platform ([bymodule.com](https://bymodule.com)), newest first, since this lab was published. Dates are production release dates. Small fixes are grouped; internal tooling is not listed. What is planned lives in the [roadmap](ROADMAP.md).
 
+## November 2026
+
+- **2026-11-13** · An About page explains who designs the courses and how they are made.
+- **2026-11-13** · Every public lesson page now gives a short answer to its main question and to each of its questions.
+
 ## October 2026
 
 - **2026-10-29** · Every course now requires a 10-question final assessment for its certificate.
