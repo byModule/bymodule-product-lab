@@ -6,6 +6,10 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## November 2026
 
+- **2026-11-14** · Six new free guides (MCP, RAG vs fine-tuning, AI evals, SQL), a page presenting the certificate with a sample, and dated sources on every course.
+- **2026-11-13** · The site icon now displays cleanly in search results.
+- **2026-11-13** · The glossary now covers 75 AI, tech and product concepts, with in-depth entries for the 10 key ones.
+- **2026-11-13** · Three free guides for PMs: write a spec for an AI agent, build a Claude Skill, use Claude Code. Each comes with a template to download.
 - **2026-11-13** · An About page explains who designs the courses and how they are made.
 - **2026-11-13** · Every public lesson page now gives a short answer to its main question and to each of its questions.
 
