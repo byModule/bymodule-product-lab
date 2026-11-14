@@ -6,6 +6,10 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Novembre 2026
 
+- **2026-11-14** · Six nouveaux guides gratuits (MCP, RAG ou fine-tuning, evals IA, SQL), une page qui présente le certificat avec un exemple, et les sources datées sur chaque formation.
+- **2026-11-13** · L'icône du site s'affiche proprement dans les résultats de recherche.
+- **2026-11-13** · Le glossaire passe à 75 notions IA, tech et produit, avec des fiches approfondies sur les 10 notions clés.
+- **2026-11-13** · Trois guides gratuits pour PM : écrire une spec pour agent IA, créer une Claude Skill, utiliser Claude Code. Chacun avec un modèle à télécharger.
 - **2026-11-13** · Une page À propos présente qui conçoit les formations et comment elles sont faites.
 - **2026-11-13** · Chaque page de leçon publique répond désormais en bref à sa question principale et à chacune de ses questions.
 

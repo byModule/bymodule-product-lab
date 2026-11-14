@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-14",
+    "type": "plateforme",
+    "fr": "Six nouveaux guides gratuits (MCP, RAG ou fine-tuning, evals IA, SQL), une page qui présente le certificat avec un exemple, et les sources datées sur chaque formation.",
+    "en": "Six new free guides (MCP, RAG vs fine-tuning, AI evals, SQL), a page presenting the certificate with a sample, and dated sources on every course."
+  },
+  {
+    "date": "2026-11-13",
+    "type": "correctif",
+    "fr": "L'icône du site s'affiche proprement dans les résultats de recherche.",
+    "en": "The site icon now displays cleanly in search results."
+  },
+  {
+    "date": "2026-11-13",
+    "type": "plateforme",
+    "fr": "Le glossaire passe à 75 notions IA, tech et produit, avec des fiches approfondies sur les 10 notions clés.",
+    "en": "The glossary now covers 75 AI, tech and product concepts, with in-depth entries for the 10 key ones."
+  },
+  {
+    "date": "2026-11-13",
+    "type": "plateforme",
+    "fr": "Trois guides gratuits pour PM : écrire une spec pour agent IA, créer une Claude Skill, utiliser Claude Code. Chacun avec un modèle à télécharger.",
+    "en": "Three free guides for PMs: write a spec for an AI agent, build a Claude Skill, use Claude Code. Each comes with a template to download."
+  },
+  {
     "date": "2026-11-13",
     "type": "plateforme",
     "fr": "Une page À propos présente qui conçoit les formations et comment elles sont faites.",
