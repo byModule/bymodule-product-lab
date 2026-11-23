@@ -6,6 +6,8 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## November 2026
 
+- **2026-11-20** · The AI-augmented PM path now includes “Set up continuous discovery with AI”, and the AI Product Builder path includes “Build the business case for an AI feature”. If you already bought one of these paths, the new course is yours at no cost.
+- **2026-11-20** · Two new courses join the catalogue: “Set up continuous discovery with AI”, to hear from your customers every week and keep every insight tied to its evidence, and “Build the business case for an AI feature”, to decide before you build. The real estate and architecture courses leave the catalogue; if you bought them, you keep access to them and to your certificate.
 - **2026-11-14** · Six new free guides (MCP, RAG vs fine-tuning, AI evals, SQL), a page presenting the certificate with a sample, and dated sources on every course.
 - **2026-11-13** · The site icon now displays cleanly in search results.
 - **2026-11-13** · The glossary now covers 75 AI, tech and product concepts, with in-depth entries for the 10 key ones.
