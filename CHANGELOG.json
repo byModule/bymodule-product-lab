@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-20",
+    "type": "parcours",
+    "fr": "Le parcours PM augmenté par l'IA comprend désormais « Installer une discovery continue avec l'IA », et le parcours AI Product Builder « Construire le business case d'une fonctionnalité IA ». Si vous avez déjà acheté l'un de ces parcours, la nouvelle formation vous est offerte.",
+    "en": "The AI-augmented PM path now includes “Set up continuous discovery with AI”, and the AI Product Builder path includes “Build the business case for an AI feature”. If you already bought one of these paths, the new course is yours at no cost."
+  },
+  {
+    "date": "2026-11-20",
+    "type": "formation",
+    "fr": "Deux nouvelles formations rejoignent le catalogue : « Installer une discovery continue avec l'IA », pour faire parler vos clients chaque semaine et garder chaque insight relié à ses preuves, et « Construire le business case d'une fonctionnalité IA », pour décider avant de construire. Les formations sur l'immobilier et l'architecture quittent le catalogue ; si vous les avez achetées, vous y gardez accès, ainsi qu'à votre certificat.",
+    "en": "Two new courses join the catalogue: “Set up continuous discovery with AI”, to hear from your customers every week and keep every insight tied to its evidence, and “Build the business case for an AI feature”, to decide before you build. The real estate and architecture courses leave the catalogue; if you bought them, you keep access to them and to your certificate."
+  },
+  {
     "date": "2026-11-14",
     "type": "plateforme",
     "fr": "Six nouveaux guides gratuits (MCP, RAG ou fine-tuning, evals IA, SQL), une page qui présente le certificat avec un exemple, et les sources datées sur chaque formation.",
