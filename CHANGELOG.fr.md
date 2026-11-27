@@ -6,6 +6,9 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Novembre 2026
 
+- **2026-11-27** · À la fin de chaque formation, vous pouvez donner votre avis en deux questions : il sert à améliorer les formations.
+- **2026-11-27** · Votre messagerie est ouverte : vous recevez les messages de l'équipe Module et vous pouvez y répondre directement.
+- **2026-11-27** · Vous recevez une notification quand vous obtenez un certificat, et une proposition d'aide si l'évaluation finale d'une formation vous bloque.
 - **2026-11-20** · Le parcours PM augmenté par l'IA comprend désormais « Installer une discovery continue avec l'IA », et le parcours AI Product Builder « Construire le business case d'une fonctionnalité IA ». Si vous avez déjà acheté l'un de ces parcours, la nouvelle formation vous est offerte.
 - **2026-11-20** · Deux nouvelles formations rejoignent le catalogue : « Installer une discovery continue avec l'IA », pour faire parler vos clients chaque semaine et garder chaque insight relié à ses preuves, et « Construire le business case d'une fonctionnalité IA », pour décider avant de construire. Les formations sur l'immobilier et l'architecture quittent le catalogue ; si vous les avez achetées, vous y gardez accès, ainsi qu'à votre certificat.
 - **2026-11-14** · Six nouveaux guides gratuits (MCP, RAG ou fine-tuning, evals IA, SQL), une page qui présente le certificat avec un exemple, et les sources datées sur chaque formation.

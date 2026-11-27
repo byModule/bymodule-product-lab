@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-27",
+    "type": "plateforme",
+    "fr": "Vous recevez une notification quand vous obtenez un certificat, et une proposition d'aide si l'évaluation finale d'une formation vous bloque.",
+    "en": "You get a notification when you earn a certificate, and an offer of help if a course's final assessment is blocking you."
+  },
+  {
+    "date": "2026-11-27",
+    "type": "plateforme",
+    "fr": "Votre messagerie est ouverte : vous recevez les messages de l'équipe Module et vous pouvez y répondre directement.",
+    "en": "Your inbox is open: you receive messages from the Module team and can reply to them directly."
+  },
+  {
+    "date": "2026-11-27",
+    "type": "plateforme",
+    "fr": "À la fin de chaque formation, vous pouvez donner votre avis en deux questions : il sert à améliorer les formations.",
+    "en": "At the end of every course, you can share your feedback in two questions: it is used to improve the courses."
+  },
+  {
     "date": "2026-11-20",
     "type": "parcours",
     "fr": "Le parcours PM augmenté par l'IA comprend désormais « Installer une discovery continue avec l'IA », et le parcours AI Product Builder « Construire le business case d'une fonctionnalité IA ». Si vous avez déjà acheté l'un de ces parcours, la nouvelle formation vous est offerte.",
