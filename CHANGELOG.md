@@ -6,6 +6,9 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## November 2026
 
+- **2026-11-27** · At the end of every course, you can share your feedback in two questions: it is used to improve the courses.
+- **2026-11-27** · Your inbox is open: you receive messages from the Module team and can reply to them directly.
+- **2026-11-27** · You get a notification when you earn a certificate, and an offer of help if a course's final assessment is blocking you.
 - **2026-11-20** · The AI-augmented PM path now includes “Set up continuous discovery with AI”, and the AI Product Builder path includes “Build the business case for an AI feature”. If you already bought one of these paths, the new course is yours at no cost.
 - **2026-11-20** · Two new courses join the catalogue: “Set up continuous discovery with AI”, to hear from your customers every week and keep every insight tied to its evidence, and “Build the business case for an AI feature”, to decide before you build. The real estate and architecture courses leave the catalogue; if you bought them, you keep access to them and to your certificate.
 - **2026-11-14** · Six new free guides (MCP, RAG vs fine-tuning, AI evals, SQL), a page presenting the certificate with a sample, and dated sources on every course.
