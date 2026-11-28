@@ -6,6 +6,8 @@ Une ligne par livraison sur la plateforme de formation Module en ligne ([bymodul
 
 ## Novembre 2026
 
+- **2026-11-28** · Les fiches des formations Claude Code, création d'app avec un agent IA et écriture de specs répondent désormais à vos questions fréquentes (durée, niveau, prérequis, livrable).
+- **2026-11-28** · Les pages publiques des leçons les plus consultées depuis Google ont un titre plus clair, qui répond directement à votre recherche.
 - **2026-11-27** · À la fin de chaque formation, vous pouvez donner votre avis en deux questions : il sert à améliorer les formations.
 - **2026-11-27** · Votre messagerie est ouverte : vous recevez les messages de l'équipe Module et vous pouvez y répondre directement.
 - **2026-11-27** · Vous recevez une notification quand vous obtenez un certificat, et une proposition d'aide si l'évaluation finale d'une formation vous bloque.
