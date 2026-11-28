@@ -6,6 +6,8 @@ One line per delivery to the live Module learning platform ([bymodule.com](https
 
 ## November 2026
 
+- **2026-11-28** · The Claude Code, AI-built web app and spec writing course pages now answer your frequent questions (duration, level, prerequisites, deliverable).
+- **2026-11-28** · The public pages of the lessons most visited from Google now have clearer titles that answer your search directly.
 - **2026-11-27** · At the end of every course, you can share your feedback in two questions: it is used to improve the courses.
 - **2026-11-27** · Your inbox is open: you receive messages from the Module team and can reply to them directly.
 - **2026-11-27** · You get a notification when you earn a certificate, and an offer of help if a course's final assessment is blocking you.

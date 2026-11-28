@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-28",
+    "type": "plateforme",
+    "fr": "Les pages publiques des leçons les plus consultées depuis Google ont un titre plus clair, qui répond directement à votre recherche.",
+    "en": "The public pages of the lessons most visited from Google now have clearer titles that answer your search directly."
+  },
+  {
+    "date": "2026-11-28",
+    "type": "plateforme",
+    "fr": "Les fiches des formations Claude Code, création d'app avec un agent IA et écriture de specs répondent désormais à vos questions fréquentes (durée, niveau, prérequis, livrable).",
+    "en": "The Claude Code, AI-built web app and spec writing course pages now answer your frequent questions (duration, level, prerequisites, deliverable)."
+  },
+  {
     "date": "2026-11-27",
     "type": "plateforme",
     "fr": "Vous recevez une notification quand vous obtenez un certificat, et une proposition d'aide si l'évaluation finale d'une formation vous bloque.",
